@@ -1,8 +1,8 @@
 # profiler2-cockpit-application
 
-experimental profiler2 webui for cockpit.
+experimental profiler2 webui for cockpit. this is very much a work in progress and not complete. use at your own risk.
 
-docs here: https://cockpit-project.org/guide/latest/packages.html
+useful docs link: https://cockpit-project.org/guide/latest/packages.html
 
 # check installed cockpit packages
 
