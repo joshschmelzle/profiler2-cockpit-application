@@ -16,7 +16,7 @@ cockpit-bridge --packages
 /usr/share/cockpit/
     my-package/
         manifest.json
-        file.html
+        webui.html
         app.js
 ```
 
