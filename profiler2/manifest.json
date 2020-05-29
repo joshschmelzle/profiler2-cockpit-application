@@ -1,0 +1,12 @@
+{
+  "version": 0,
+  "require": {
+      "cockpit": "120"
+  },
+  "tools": {
+     "profiler2": {
+        "label": "profiler2",
+        "path": "file.html"
+     }
+  }
+}
