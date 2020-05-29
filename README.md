@@ -14,13 +14,13 @@ cockpit-bridge --packages
 
 ```
 /usr/share/cockpit/
-    my-package/
+    profiler2/
         manifest.json
         webui.html
         app.js
 ```
 
-Look into symlinking your package to your `~/.local/share/cockpit` directory that you would like to modify and develop.
+Look into symlinking your package to your `/usr/share/cockpit` directory that you would like to modify and develop.
 
 # html script gotcha
 
