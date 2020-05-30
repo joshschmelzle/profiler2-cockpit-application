@@ -1,0 +1,7 @@
+[Unit]
+Description=profiler2 service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/local/bin/profiler
