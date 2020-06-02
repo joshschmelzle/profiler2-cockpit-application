@@ -1,5 +1,5 @@
 [Unit]
-Description=profiler2 service
+Description=profiler service
 After=multi-user.target
 
 [Service]
