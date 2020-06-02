@@ -1,0 +1,13 @@
+{
+  "version": 0,
+  "require": {
+      "cockpit": "120"
+  },
+  "dashboard": {
+     "profiler": {
+        "label": "profiler",
+        "path": "webui.html",
+        "icon": "fa-mobile"
+     }
+  }
+}
