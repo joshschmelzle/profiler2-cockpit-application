@@ -14,10 +14,11 @@ cockpit-bridge --packages
 
 ```
 /usr/share/cockpit/
-    profiler2/
+    profiler/
         manifest.json
         webui.html
         app.js
+        main.css
 ```
 
 Look into symlinking your package to your `/usr/share/cockpit` directory that you would like to modify and develop.
@@ -38,11 +39,13 @@ This is important to have in your `.html`:
   "require": {
       "cockpit": "120"
   },
-  "tools": {
-     "profiler2": {
-        "label": "profiler2",
-        "path": "file.html"
+  "dashboard": {
+     "profiler": {
+        "label": "profiler",
+        "path": "webui.html",
+        "icon": "fa-mobile"
      }
   }
 }
+
 ```
